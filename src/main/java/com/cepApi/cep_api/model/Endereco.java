@@ -19,7 +19,7 @@ public class Endereco {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private Integer cep;
+    private String cep;
     private String logradouro;
     private String complemento;
     private String bairro;
